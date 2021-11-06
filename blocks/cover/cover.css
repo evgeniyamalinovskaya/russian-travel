@@ -1,0 +1,55 @@
+.cover {
+    outline: 1px solid red;
+    margin: 0 auto;
+    padding: 92px 48px 0 48px;
+    width: 100%;
+    max-width: 1184px;
+    position: relative;
+}
+
+.cover__background {
+    width: 1184px;
+    height: 740px;
+}
+
+.cover__background:hover {
+    opacity: 0.3;
+}
+
+.cover__title {
+    outline: 1px solid red;
+    margin: 0 auto;
+    position: absolute;
+    top: 337px;
+    left: 312px;
+    width: 100%;
+    max-width: 560px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cover__subtitle {
+    outline: 1px solid red;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: 521px;
+    left: 412px;
+    max-width: 360px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cover__overlay {
+    max-width: 1184px;
+    max-height: 740px;
+    background: #2A2C2F;
+    text-decoration: none;
+}
+

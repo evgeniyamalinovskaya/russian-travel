@@ -1,0 +1,16 @@
+.photo-grid {
+    outline: 1px solid red;
+    margin: 0 auto;
+    padding: 92px 48px 0 48px;
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.photo-grid__item {
+    outline: 1px solid red;
+    max-width: 284px;
+    width: 100%;
+}

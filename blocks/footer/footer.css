@@ -1,0 +1,47 @@
+.footer {
+    outline: 1px solid red;
+    margin: 0 auto;
+    padding: 92px 48px 24px 48px;
+    max-width: 1184px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer__nav {
+    outline: 1px solid red;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.footer__links {
+    outline: 1px solid red;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__link {
+    outline: 1px solid red;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.footer__copyright {
+    outline: 1px solid red;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
