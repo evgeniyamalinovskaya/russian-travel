@@ -1,10 +1,32 @@
 .intro {
     outline: 1px solid red;
     max-width: 690px;
-    max-height: 429px;
+    width: 100%;
     margin: 0 auto;
     padding: 92px 442px 0 148px;
     text-align: left;
+    overflow:hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: 690px;
+        padding: 92px 286px 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+        padding: 88px 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        max-width: 288px;
+        padding: 64px 16px 0 16px;
+    }
 }
 
 .intro__title {
@@ -16,14 +38,58 @@
     line-height: 58px;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .intro__title {
+        font-size: 54px;
+        line-height: 58px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__title {
+        font-size: 54px;
+        line-height: 58px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+
 .intro__text {
     outline: 1px solid red;
     margin: 0;
+    max-width: 690px;
     padding: 40px 0 33px 0;
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
+    overflow:hidden;
 }
+
+@media screen and (max-width:1024px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .intro__text {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text {
+        max-width: 288px;
+    }
+}
+
 
 .intro__list {
     outline: 1px solid red;
@@ -39,4 +105,22 @@
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
+}
+
+@media screen and (max-width:1024px) {
+    .intro__list-lang {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .intro__list-lang {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list-lang {
+        max-width: 288px;
+    }
 }

@@ -1,22 +1,64 @@
 .lead {
     outline: 1px solid red;
     margin: 0 auto;
-    padding: 56px 148px 0 148px;
+    padding: 0 148px 0 148px;
     max-width: 984px;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead  {
+        padding: 0 48px 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead  {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 321px)  {
+    .lead  {
+        padding: 0 2px 0 2px;
+    }
+}
+
 
 .lead__title {
     outline: 1px solid red;
     margin: 0 auto;
     padding: 0;
     max-width: 720px;
-    width: 100%;
-    font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
-    text-align: center;
+    align-items: center;
+    text-rendering: optimizeLegibility;
 }
+@media (max-width: 1024px) {
+    .lead__title  {
+        max-width: 720px;
+        font-size: 96px;
+        line-height: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead__title  {
+        max-width: 720px;
+        font-size: 96px;
+        line-height: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__title  {
+        max-width: 288px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
 
 .lead__subtitle {
     outline: 1px solid red;
@@ -28,7 +70,30 @@
     font-size: 30px;
     line-height: 36px;
     text-align: center;
+    text-rendering: optimizeLegibility;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle  {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__subtitle  {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__subtitle  {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
 
 .lead__image {
     outline: 1px solid red;
@@ -42,7 +107,7 @@
 .lead__caption {
     outline: 1px solid red;
     margin: 0;
-    padding: 0;
+    padding: 8px 0 0 0;
     max-width: 158px;
     max-height: 14px;
     font-weight: normal;
@@ -50,4 +115,21 @@
     line-height: 14px;
     letter-spacing: 1.5px;
     text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__caption  {
+        padding: 8px 0 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption  {
+        padding: 8px 0 0 24px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead__caption  {
+        padding: 8px 0 0 16px;
+    }
 }

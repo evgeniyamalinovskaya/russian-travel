@@ -1,9 +1,14 @@
 @import url(normalize.css);
 @import url(fonts.css);
 
-@import url(page/page.css);
-
 @import url(header/header.css);
+@import url(lang/__link/lang__link.css);
+@import url(lang/__link/_underlined/lang__link_underlined.css);
+@import url(lang/list/list.css);
+@import url(lang/lang.css);
+@import url(../logo/logo.css);
+
+
 @import url(lead/lead.css);
 @import url(intro/intro.css);
 @import url(photo-grid/photo-grid.css);
@@ -11,4 +16,18 @@
 @import url(cover/cover.css);
 @import url(footer/footer.css);
 
+.page {
+    margin: 0 auto;
+    background: #2A2C2F;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inter', 'Arial', sans-serif;
+}
 
+.body {
+    min-width: 320px;
+    max-width: 1280px;
+    text-align: center;
+    background: #2a2c2f;
+}
