@@ -22,12 +22,10 @@
     color: #fff;
     padding: 0;
     text-align: center;
+
     font-family: 'Inter', 'Arial', sans-serif;
 }
 
 .body {
-    min-width: 320px;
-    max-width: 1280px;
-    text-align: center;
-    background: #2a2c2f;
+
 }
