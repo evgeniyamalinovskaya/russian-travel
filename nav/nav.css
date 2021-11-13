@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

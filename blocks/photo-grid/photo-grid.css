@@ -1,9 +1,7 @@
 .photo-grid {
-    outline: 1px solid red;
     margin: 0 auto;
     padding: 92px 48px 0 48px;
     max-width: 1184px;
-
     overflow: hidden;
 }
 
@@ -25,23 +23,5 @@
     }
 }
 
-.photo-grid__cards {
-    outline: 1px solid red;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-gap: 16px;
-    list-style-type: none;
-    list-style-type: none;
-}
 
-.photo-grid__item {
-    outline: 1px solid red;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    list-style-type: none;
-}
 

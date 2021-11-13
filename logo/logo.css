@@ -1,4 +1,16 @@
-@media (min-width: 768px) {
+.logo {
+    max-width: 176px;
+    max-height: 52px;
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        max-width: 176px;
+        max-height: 52px;
+    }
+}
+
+@media (max-width: 768px) {
     .logo {
         max-width: 142px;
         max-height: 42px;
@@ -12,8 +24,3 @@
     }
 }
 
-.logo {
-    outline: 1px solid red;
-    max-width: 176px;
-    max-height: 52px;
-}

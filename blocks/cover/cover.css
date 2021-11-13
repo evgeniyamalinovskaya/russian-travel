@@ -1,9 +1,7 @@
 .cover {
-    outline: 1px solid red;
     margin: 0 auto;
     padding: 92px 48px 92px 48px;
     max-width: 1184px;
-    position: relative;
 }
 
 @media screen and (max-width: 1024px) {
@@ -29,120 +27,10 @@
 
 
 
-.cover__background {
-    outline: 1px solid red;
-    margin: 0;
-    cursor: pointer;
-    text-decoration: none;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(42, 44, 47, .8);
-    transition: background-color .2s linear;
-     z-index: 1;
-}
 
 
-.cover__background:hover {
-    opacity: 0.8;
-}
 
 
-.cover__title {
-    outline: 1px solid red;
-    margin: 0;
-    position: absolute;
-    top: 245px;
-    left: 312px;
-    max-width: 560px;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    color: #FFFFFF;
-    text-align: center;
-    z-index: 2;
-
-}
 
 
-@media screen and (max-width:1024px) {
-    .cover__title {
-        max-width: 560px;
-    }
-}
 
-@media screen and (max-width:768px) {
-    .cover__title {
-        max-width: 560px;
-        position: absolute;
-        top: 115px;
-        left: 104px;
-    }
-}
-
-@media screen and (max-width:320px) {
-    .cover__title {
-        font-size: 32px;
-        line-height: 35px;
-        max-width: 288px;
-    }
-}
-
-
-.cover__subtitle {
-    outline: 1px solid red;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 429px;
-    left: 412px;
-    width: 100%;
-    max-width: 360px;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    text-align: center;
-    z-index: 2;
-}
-@media screen and (max-width:768px) {
-    .cover__subtitle {
-        max-width: 560px;
-        position: absolute;
-        top: 299px;
-        left: 204px;
-    }
-}
-
-@media screen and (max-width:320px) {
-    .cover__subtitle {
-        position: absolute;
-        top: 219px;
-        left: 16px;
-        font-size: 14px;
-        line-height: 16px;
-        max-width: 288px;
-    }
-}
-
-
-@media screen and (max-width:320px) {
-    .cover__subtitle {
-        font-size: 32px;
-        line-height: 35px;
-        max-width: 288px;
-    }
-}
-
-
-.cover__overlay {
-    padding: 0;
-    margin: 0;
-    max-width: 1184px;
-    width: 100%;
-    max-height: 740px;
-    background: #2A2C2F;
-    text-decoration: none;
-
-}
