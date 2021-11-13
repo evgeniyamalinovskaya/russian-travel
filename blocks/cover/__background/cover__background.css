@@ -1,5 +1,6 @@
 .cover__background {
-    width: 1184px;
+    max-width: 1184px;
+    max-height: 740px;
     text-decoration: none;
     background-image: url("../../../images/sprint-3-images/cover-trains.jpg");
     background-size: cover;
@@ -11,8 +12,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0.8;
-    padding: calc(245 * 100% / 1184) 0;
+    opacity: 0.7;
+    padding: calc(321 * 100% / 1184);
 }
 
 .cover__background::before {
@@ -25,7 +26,6 @@
     display: block;
     background-color: #2a2c2f;
     opacity: 0.3;
-
     transition: 0.3s;
 }
 
