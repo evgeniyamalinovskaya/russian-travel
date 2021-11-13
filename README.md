@@ -17,4 +17,4 @@
 
 **GitHub Pages**
 
-* [Demo](https://github.com/evgeniyamalinovskaya/)
+* [Demo](https://evgeniyamalinovskaya.github.io/russian-travel/)
