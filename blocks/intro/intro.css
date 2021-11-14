@@ -2,7 +2,7 @@
     max-width: 690px;
     width: 100%;
     margin: 0 auto;
-    padding: 92px 0 0 148px;
+    padding: 0 0 92px 0;
     text-align: left;
     overflow:hidden;
 }
@@ -10,24 +10,25 @@
 @media screen and (max-width: 1024px) {
     .intro {
         max-width: 690px;
-        padding: 92px 0 0 48px;
+        padding: 0 0 92px 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        max-width: 720px;
-        padding: 88px 0 0 24px;
+        margin: 0;
+        padding: 0 0 88px 24px;
     }
 }
+
 
 @media screen and (max-width: 320px) {
     .intro {
         max-width: 288px;
-        padding: 64px 0 0 16px;
+        margin: 0;
+        padding: 0 16px 64px 16px;
     }
 }
-
 
 
 
