@@ -54,7 +54,7 @@
     color: #fff;
     padding: 0;
     text-align: center;
-    /*overflow: hidden;*/
+    min-width: 320px;
     font-family: 'Inter', sans-serif;
 }
 

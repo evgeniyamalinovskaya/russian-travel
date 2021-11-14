@@ -6,6 +6,20 @@
     flex-direction: row;
 }
 
+@media screen and (max-width: 768px) {
+    .nav__list {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav__list {
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .nav__list {

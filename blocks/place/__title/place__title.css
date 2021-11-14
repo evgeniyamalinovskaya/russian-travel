@@ -9,6 +9,11 @@
     text-align: left;
 }
 
+@media screen and (max-width: 1280px) {
+    .place__title {
+        max-width: 440px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .place__title {
@@ -24,6 +29,16 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 288px;
+        padding-left: calc(16 * 100% / 320);
+        grid-column: 1 / 2;
+        grid-row: 1 / 1;
+    }
+}
 @media screen and (max-width: 320px) {
     .place__title {
         font-size: 32px;

@@ -1,14 +1,21 @@
 .intro {
     max-width: 690px;
-    width: 100%;
     margin: 0 auto;
     padding: 0 0 92px 0;
     text-align: left;
-    overflow:hidden;
+}
+
+@media screen and (max-width: 1280px) {
+    .intro {
+        margin: 0;
+        max-width: 690px;
+        padding: 0 0 92px 148px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
+        margin: 0;
         max-width: 690px;
         padding: 0 0 92px 48px;
     }

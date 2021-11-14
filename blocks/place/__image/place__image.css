@@ -4,6 +4,13 @@
     grid-row: 2 / 2;
 }
 
+@media screen and (max-width: 1280px) {
+    .place__image {
+        max-width: 440px;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .place__image {
         max-width: 440px;
@@ -14,7 +21,14 @@
 @media screen and (max-width: 768px) {
     .place__image {
         max-width: 340px;
-        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__image {
+        max-width: 320px;
+        grid-column: 1 / 2;
+        grid-row: 3 / 3;
     }
 }
 
