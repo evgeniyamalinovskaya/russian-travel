@@ -1,0 +1,59 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/lang/__link/lang__link.css);
+@import url(../blocks/lang/__link/_underlined/lang__link_underlined.css);
+@import url(../blocks/lang/__list/lang__list.css);
+@import url(../blocks/lang/lang.css);
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-lang/intro__list-lang.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__cards/photo-grid__cards.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__links/nav__links.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+
+.page {
+    margin: 0 auto;
+    background: #2A2C2F;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
