@@ -4,8 +4,13 @@
     list-style-type: none;
 }
 
+.nav__links:last-child {
+    padding-bottom: 0;
+}
+
 @media screen and (max-width: 767px) {
     .nav__links {
         padding: 0 0 32px 0;
     }
 }
+

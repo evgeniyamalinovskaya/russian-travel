@@ -9,9 +9,16 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .lead__subtitle  {
+        padding: 32px 0 56px 0;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .lead__subtitle  {
         font-size: 16px;
         line-height: 20px;
+        padding: 16px 0 40px 0;
     }
 }

@@ -7,8 +7,16 @@
     color: #FFFFFF;
     text-decoration: none;
     text-align: center;
+    text-align: right;
 }
 
 .lang__link:hover {
     opacity: 0.7;
+}
+
+@media screen and (max-width: 767px) {
+    .lang__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
