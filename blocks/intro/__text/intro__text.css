@@ -5,22 +5,15 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
-    overflow:hidden;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
     .intro__text {
         max-width: 720px;
     }
 }
 
-@media screen and (max-width:768px) {
-    .intro__text {
-        max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width:767px) {
     .intro__text {
         max-width: 288px;
     }

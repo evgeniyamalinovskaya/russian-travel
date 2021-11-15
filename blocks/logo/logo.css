@@ -3,24 +3,10 @@
     max-height: 52px;
 }
 
-@media (max-width: 1024px) {
-    .logo {
-        max-width: 176px;
-        max-height: 52px;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .logo {
         max-width: 142px;
         max-height: 42px;
-    }
-}
-
-@media (max-width: 320px) {
-    .logo {
-        width: 142px;
-        height: 42px;
     }
 }
 

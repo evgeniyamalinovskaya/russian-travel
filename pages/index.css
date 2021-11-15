@@ -1,9 +1,10 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/lang/__link/lang__link.css);
-@import url(../blocks/lang/__link/_underlined/lang__link_underlined.css);
+@import url(../blocks/lang/__link/_active/lang__link_active.css);
 @import url(../blocks/lang/__list/lang__list.css);
 @import url(../blocks/lang/lang.css);
 @import url(../blocks/logo/logo.css);
@@ -11,6 +12,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -19,6 +21,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-lang/intro__list-lang.css);
+@import url(../blocks/intro/__span/intro__span.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__cards/photo-grid__cards.css);
@@ -38,7 +41,7 @@
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
+
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/nav/nav.css);
@@ -48,13 +51,4 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 
-.page {
-    margin: 0 auto;
-    background: #2A2C2F;
-    color: #fff;
-    padding: 0;
-    text-align: center;
-    min-width: 320px;
-    font-family: 'Inter', sans-serif;
-}
 

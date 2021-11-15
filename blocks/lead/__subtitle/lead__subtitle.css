@@ -9,28 +9,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1279px) {
-    .lead__subtitle  {
-        font-size: 30px;
-        line-height: 36px;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .lead__subtitle  {
-        font-size: 30px;
-        line-height: 36px;
-    }
-}
-
 @media screen and (max-width: 767px) {
-    .lead__subtitle  {
-        font-size: 16px;
-        line-height: 20px;
-    }
-}
-
-@media screen and (max-width: 320px) {
     .lead__subtitle  {
         font-size: 16px;
         line-height: 20px;

@@ -1,18 +1,18 @@
 .intro__list-lang {
     margin: 0;
     padding: 0;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 18px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1279px) {
     .intro__list-lang {
         max-width: 720px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
     .intro__list-lang {
         max-width: 400px;
     }
@@ -24,8 +24,3 @@
     }
 }
 
-@media screen and (max-width: 320px) {
-    .intro__list-lang {
-        max-width: 288px;
-    }
-}
