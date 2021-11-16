@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: calc(245 * 100% / 1184);
+    padding: 245px 312px;
 }
 
 .cover__background::before {
@@ -30,3 +30,24 @@
 .cover__background:hover::before {
     opacity: 0.8;
 }
+
+
+@media screen and (max-width: 1279px) {
+    .cover__background {
+        padding: 195px 232px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__background {
+        padding: 115px 104px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__background {
+        padding: 33px 16px;
+    }
+}
+
+
