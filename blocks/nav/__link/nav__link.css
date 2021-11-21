@@ -9,6 +9,11 @@
     transition: opacity 0.2s linear;
 }
 
+.nav__link:hover {
+    opacity: 0.8;
+}
+
+
 @media screen and (max-width: 767px) {
     .nav__link {
         margin: 0;
